@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Hello World adit') {
+        stage('Hello adit') {
             steps {
                 echo 'My Jenkins Pipeline'
             }
-        }
-    }
+        }
+    }
 }
